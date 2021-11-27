@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7CB8D282752A1F5005C58C8 /* AboutViewContollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB8D272752A1F5005C58C8 /* AboutViewContollerViewController.swift */; };
 		E7F53621274F776C00202840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F53620274F776C00202840 /* AppDelegate.swift */; };
 		E7F53623274F776C00202840 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F53622274F776C00202840 /* SceneDelegate.swift */; };
 		E7F53625274F776C00202840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F53624274F776C00202840 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7CB8D272752A1F5005C58C8 /* AboutViewContollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewContollerViewController.swift; sourceTree = "<group>"; };
 		E7F5361D274F776C00202840 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F53620274F776C00202840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F53622274F776C00202840 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				E7F53620274F776C00202840 /* AppDelegate.swift */,
 				E7F53622274F776C00202840 /* SceneDelegate.swift */,
 				E7F53624274F776C00202840 /* ViewController.swift */,
+				E7CB8D272752A1F5005C58C8 /* AboutViewContollerViewController.swift */,
 				E7F53626274F776C00202840 /* Main.storyboard */,
 				E7F53629274F777000202840 /* Assets.xcassets */,
 				E7F5362B274F777000202840 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7CB8D282752A1F5005C58C8 /* AboutViewContollerViewController.swift in Sources */,
 				E7F53625274F776C00202840 /* ViewController.swift in Sources */,
 				E7F53621274F776C00202840 /* AppDelegate.swift in Sources */,
 				E7F53623274F776C00202840 /* SceneDelegate.swift in Sources */,

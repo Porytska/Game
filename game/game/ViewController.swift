@@ -19,6 +19,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
+   
+    @IBAction func startOverButton(_ sender: UIButton) {
+        score = 0
+        round = 0
+        startNewRound()
+    }
+    
+    @IBAction func aboutAuthorButton(_ sender: UIButton) {
+    }
     
     
     override func viewDidLoad() {
@@ -43,7 +52,7 @@ class ViewController: UIViewController {
             title = "Perfect!"
             points += 100
         } else if difference < 5 {
-            title = "Ypu almost had it!"
+            title = "You almost had it!"
             if difference == 1 {
                 points += 50
             }
@@ -57,13 +66,15 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        let action = UIAlertAction(title: "OK", style: .default, handler: {
+            action in
+            self.startNewRound()
+        })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
-        
-        startNewRound()
+       
         
     }
     
